@@ -30,7 +30,7 @@ jobs:
         sh gradlew clean
         sudo sh gradlew assembleRelease
         cd  app/keystore
-        
+        ls -la app/build/outputs/apk/release/
     - name: Upload the signed APK artifact
       uses: actions/upload-artifact@v2
       with:
