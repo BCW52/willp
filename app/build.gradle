@@ -44,14 +44,14 @@ android {
         buildConfigField "String", "STORED_CARRIER_ID_KEY", "\"com.northghost.afvclient.CARRIER_ID_KEY\""
 
 //In App Purchase
-        buildConfigField "Boolean", "USE_IN_APP_PURCHASE", "true"
+        buildConfigField "Boolean", "USE_IN_APP_PURCHASE", "false"
         buildConfigField "String", "IN_APPKEY", "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApjNtQn4c03Rz0TSuF7GawAFP6C5UAW/Ap9wiF6v0z0rZpReY/IVdORbDGjfSWbHb0q884E0e70un+iDJenmtdIggghuM4hv4FVOvFN0dh5smFJeva5Q/kcf9XoQv0o5bQ+HcICXPuXKFqmqUrcHJ0GqaRA6mk0qEa3RM98jn3gnhROeyTvNe9dzr8ZQWfcdvqs3d39a28PcJIuzypFcrmECWeWwWw8r9whOQtXZOmIPInbHyCCn3lEqemQhbsMwj7OhltNjB6NNE9NPhNXhKhxx9re1PXJoSvom7lnMrS0mZQy6owhXSgwAFMdgWP1mhXqYky2RKJRnA53z2CkgnywIDAQAB\""
         buildConfigField "String", "MONTHLY", "\"oll_feature_for_onemonth\""
         buildConfigField "String", "SIX_MONTH", "\"oll_feature_for_sixmonth\""
         buildConfigField "String", "YEARLY", "\"oll_feature_for_year\""
 
 //Admob
-        buildConfigField "Boolean", "GOOGlE_AD", "true"
+        buildConfigField "Boolean", "GOOGlE_AD", "false"
         buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-3940256099942544/6300978111\""
         buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-3940256099942544/1033173712\""
 
