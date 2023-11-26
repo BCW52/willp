@@ -66,13 +66,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     signingConfigs {
-        release {}
+  
     }
 
     buildTypes {
         release {
             minifyEnabled true
-            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
         }
