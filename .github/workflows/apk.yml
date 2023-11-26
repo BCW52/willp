@@ -30,7 +30,7 @@ jobs:
         sh gradlew clean
         sudo sh gradlew assembleRelease
         cd  app/keystore
-        jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks -storepass harryThanatos app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk KaizenVPN
+        
     - name: Upload the signed APK artifact
       uses: actions/upload-artifact@v2
       with:
